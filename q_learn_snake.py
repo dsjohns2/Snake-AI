@@ -3,9 +3,9 @@ import random
 import time
 import numpy as np
 
-dimensions = (10, 20)
+dimensions = (5, 5)
 q_table = np.zeros((dimensions[0], dimensions[1], dimensions[0], dimensions[1], 4))
-for episode in range(0, 10000000):
+for episode in range(0, 100000):
 	print(episode)
 	snake_location = [(random.randint(0, dimensions[0]-1), random.randint(0, dimensions[1]-1))]
 	free_space = []
@@ -129,4 +129,4 @@ while(alive):
 		print()
 		print("Final Score: " + str(score))
 		alive = False
-	time.sleep(.25)
+	time.sleep(.5)

@@ -2,7 +2,7 @@ from __future__ import print_function
 import random
 import time
 
-dimensions = (10, 10)
+dimensions = (5, 5)
 
 snake_location = [(random.randint(0, dimensions[0]-1), random.randint(0, dimensions[1]-1))]
 free_space = []
