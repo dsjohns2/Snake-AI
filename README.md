@@ -14,3 +14,7 @@
 4. Watch Deep Q-Learning AI play:
 
 	python3 run_deep_q_learn_ai.py
+
+5. Watch Scaled Deep Q-Learning AI play:
+
+	python3 run_scale_deep_q_learn_ai.py
