@@ -35,7 +35,7 @@ net = Net()
 criterion = nn.MSELoss()
 optimizer = optim.SGD(net.parameters(), lr=.0001)
 dimensions = (5, 5)
-for episode in range(0, 1000):
+for episode in range(0, 1000000):
 	print("Episode: " + str(episode))
 	snake_location = [(random.randint(0, dimensions[0]-1), random.randint(0, dimensions[1]-1))]
 	free_space = []
